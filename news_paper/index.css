@@ -1,0 +1,288 @@
+    body {
+        margin: 0px;
+    }
+    
+    header {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #333;
+        color: aliceblue;
+        height: 100px;
+    }
+    
+    table {
+        width: 1400px;
+        margin: 0px;
+    }
+    
+    .headleft {
+        text-align: left;
+    }
+    
+    .headright {
+        text-align: right;
+        padding-top: 15px;
+    }
+    
+    td.headmid {
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        padding-left: 250px;
+    }
+    
+    .paper-name {
+        text-shadow: 3px 3px 4px rgba(254, 254, 254, 0.675);
+    }
+    
+    .search {
+        background-color: rgb(40, 40, 42);
+        padding: 10px;
+        margin-top: 10px;
+        color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        cursor: text;
+    }
+    
+    .search:focus {
+        background-color: #555;
+    }
+    
+    .search-btn {
+        background-color: rgb(40, 40, 42);
+        padding: 10px;
+        margin-top: 10px;
+        color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .selectlang,
+    .citySelect {
+        background-color: rgb(40, 40, 42);
+        padding: 5px;
+        width: 130px;
+        color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .epaper {
+        margin-top: 10px;
+        padding: 10px;
+        width: 100px;
+        background-color: rgb(40, 40, 42);
+        color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .search-btn:hover,
+    .citySelect:hover,
+    .selectlang:hover,
+    .epaper:hover {
+        background-color: #555;
+    }
+    /* Navigation Bar Styling */
+    
+    nav {
+        background-color: #333;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    
+    nav ul li a:hover {
+        background-color: #555;
+    }
+    /*letest news style */
+    
+    .lstheading {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .lstlist {
+        font-weight: bold;
+    }
+    
+    ul.lstlist li {
+        margin-top: 10px;
+    }
+    
+    ul.lstlist li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul.lstlist li a:hover {
+        background-color: #555;
+        color: aliceblue;
+    }
+    /* News section */
+    
+    iframe {
+        height: 600px;
+    }
+    
+    iframe.newssection {
+        display: inline;
+        overflow: scroll;
+    }
+    /*news style*/
+    
+    .newstable {
+        width: 800px;
+        padding: 10px;
+    }
+    
+    .newstable {
+        border-bottom: 2px solid black;
+    }
+    
+    .newstable tr td img {
+        width: 400px;
+    }
+    
+    .newsHeading {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    /* footer */
+    
+    .contact-container {
+        text-align: left;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(242, 235, 235, 0.937);
+    }
+    
+    .contact-heading {
+        text-align: center;
+    }
+    
+    .contact-label {
+        margin-top: 10px;
+        padding-bottom: 0px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .contact-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    .contact-submit {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        box-shadow: 2px 2px 5px rgba(242, 235, 235, 0.937);
+    }
+    
+    .contact-submit:hover {
+        background-color: #45a049;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    /* Wheather Report */
+    
+    .weather-body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wheather-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .weather-news {
+        margin: 5px;
+    }
+    
+    .weather-heading {
+        text-align: center;
+    }
+    
+    .weather-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .weather-info div {
+        text-align: center;
+    }
+    
+    .temperature {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .location {
+        font-size: 16px;
+        color: #888;
+    }
+    
+    .sunicon {
+        width: 30px;
+        height: 25px;
+        margin: 0px;
+    }
+    
+    .weather-img {
+        height: 200px;
+        width: 100%;
+    }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Mera Desh</title>
+</head>
+
+
+<body>
+    <header>
+        <table class="headtable">
+            <tr>
+                <td class="headleft">
+                    <input class="search" type="search" placeholder="Search">
+                    <button class="search-btn">Search</button>
+
+                    <br>
+                    <p style="margin-top: 10px;">Monday, July 10,2023</p>
+                    <label for="city">City :
+                        <select class="citySelect" id="city">
+                          
+                            <option value="Akola">Akola</option>
+                            <option value="Mumbai" selected>Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Hydrabad">Hydrabad</option>
+                            <option value="Chenni">Chenni</option>
+                            <option value="Dehli">Dehli</option>
+                        </select>
+                    </label>
+                </td>
+                <td class="headmid">
+                    <h1 class="paper-name">Mera Desh</h1>
+                </td>
+                <td class="headright">
+                    <label for="lang">Your Language : </label>
+                    <select id="lang" class="selectlang" name="lang" id="lang" style="margin-top: 0px;">
+                      
+                        <option value="Hindi" >Hindi</option>
+                        <option value="English" selected>English</option>
+                        <option value="Telagu">Telgu</option>
+                        <option value="Marathi">Marathi</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Kannada">Kannada</option>
+
+                    </select><br>
+                    <button class="epaper">Epaper</button>
+                    <br><br><br>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#">Cricket</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Mumbai</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Astrology</a></li>
+            <li><a href="#">Editorials</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Now</a></li>
+        </ul>
+    </nav>
+
+
+    <section style="margin: 10px;">
+        <iframe class="lstnews" src="./src/letestnews.html" width="300px"></iframe>
+        <iframe class="newssection" src="./src/news.html" width="820px"></iframe>
+        <iframe class="addsection" src="./src/weather.html" width="300px"></iframe>
+    </section>
+
+
+    <footer>
+        <div class="contact-container">
+            <h1 class="contact-heading">Contact Us</h1>
+            <form>
+                <label class="contact-label" for="name">Name:</label>
+                <input class="contact-input" type="text" id="name" name="name" required>
+                <label class="contact-label" for="email">Email:</label>
+                <input class="contact-input" type="text" id="email" name="email" required>
+                <label class="contact-label" for="message">Message:</label>
+                <textarea class="contact-input" id="message" name="message" required></textarea>
+                <input class="contact-submit" type="submit" value="Send">
+            </form>
+        </div>
+        <p>&copy; 2023 Mera Desh Newspaper. All rights reserved.</p>
+        <p>Designed by
+            <NAME>Pavan Gawande </NAME>
+        </p>
+    </footer>
+</body>
+
+</html>
